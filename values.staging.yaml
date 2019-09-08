@@ -10,8 +10,8 @@ image:
   pullPolicy: IfNotPresent
 
 imagePullSecrets: [name: regcred]
-nameOverride: ""
-fullnameOverride: "production"
+nameOverride: "staging"
+fullnameOverride: "staging"
 
 service:
   type: LoadBalancer
